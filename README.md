@@ -1,6 +1,6 @@
 # Tom Blog
 
-### <a href="https://bb8086.com" target="_blank">View Live Tom Blog &rarr;</a>
+### [View Live Tom Blog &rarr;](https://bb8086.com)
 
 ![](https://bb8086.com/img/blog-desktop.jpg)
 

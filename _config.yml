@@ -59,12 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: bibi8086
-
-# Netease settings
-netease_comment: false
-
-
+disqus_username: bb8086
 
 # Analytics settings
 # Baidu Analytics 

@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: bb8086
+#disqus_shortname: bb8086
 
 # Analytics settings
 # Baidu Analytics 

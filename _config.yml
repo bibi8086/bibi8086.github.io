@@ -1,1 +1,115 @@
-theme: jekyll-theme-midnight
+# Site settings
+title: Tom Blog
+SEOTitle: Tom的博客 | Tom Blog
+header-img: img/home-bg.jpg
+email: bibi8086@gmail.com
+description: "关于程序与设计 | Tom，Web & Mobile Lover，Software Engineer | tom的个人博客，与你一起发现更大的世界。"
+keyword: "tom, tom的博客, TomBlog, 博客, 个人网站, 互联网, Java, Android, Web, JavaScript, 前端"
+url: "https://bb8086.com"       # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: true
+weibo_username:     bibi8086
+zhihu_username:     bibi8086
+github_username:    bibi8086
+#twitter_username:   bibi8086
+#facebook_username:  bibi8086
+#linkedin_username:  bibi8086
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+disqus_username: bibi8086
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+ba_track_id: 6c9941ca7dc7a88b2e017f2ae07acdfb
+
+# Google Analytics
+ga_track_id: 'UA-131335290-1'            # Format: UA-xxxxxx-xx
+ga_domain: bb8086.com
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "为兴趣做事，永不倦怠<br>你若对得起时间，时间便对得起你！"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+        title: "Ebn's Blog",
+        href: "http://ebnbin.com/"
+    },{
+        title: "DHong Say",
+        href: "http://dhong.co"
+    },{
+        title: "尹峰以为",
+        href: "http://ingf.github.io/"
+    }
+]

@@ -7,6 +7,8 @@ description: "关于程序与设计 | Tom，Web & Mobile Lover，Software Engine
 keyword: "tom, tom的博客, TomBlog, 博客, 个人网站, 互联网, Java, Android, Web, JavaScript, 前端"
 url: "https://bb8086.com"       # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+icp-name: 粤ICP备18004501号
+icp-url: "https://beian.miit.gov.cn/"
 
 # Publish posts or collection documents with a future date.
 future: true
